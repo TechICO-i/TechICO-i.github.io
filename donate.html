@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EnigmaRealm Studios, Donate</title>
+    <link rel= "stylesheet" href ="donate.css">
+    <link rel= "stylesheet" href ="header.css">
+    <link rel= "stylesheet" href ="footer.css">
+    <link rel= "stylesheet" href ="keyframes.css">
+    </head>
+  <body>
+    <div class="header">
+      <header>
+        <nav>
+        <div class="img-container">
+          <a href="http://127.0.0.1:5500/homepage.html" class="CN">
+            <img src="images/icon. E.png"></a>
+        </div>
+        <div class="headerNav">
+          <a href="http://127.0.0.1:5500/homepage.html">Home</a>
+          <a href="http://127.0.0.1:5500/progress.html">Discover</a>
+          <a href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+          <a href="http://127.0.0.1:5500/contactus.html">Contact Us</a>
+          <a href="http://127.0.0.1:5500/download.html">Download</a>
+          <a href="http://127.0.0.1:5500/donate.html">Donate</a>
+          <div class="nav-button">
+            <button class="logout-button" onclick= "logoutalert()">Logout</button>
+          </div>
+        </div>
+        </nav>
+      </header>
+  <section>
+
+    <div class="container">
+      <form action="" name="donate-form" onsubmit="return validateForm()" required>
+  
+          <div class="row">
+  
+              <div class="col">
+  
+                  <h3 class="title">billing address</h3>
+  
+                  <div class="inputBox">
+                      <span>Full name :</span>
+                      <input type="text" placeholder="F/N L/N" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>Email :</span>
+                      <input type="email" placeholder="example@example.com" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>Address :</span>
+                      <input type="text" placeholder="room - street" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>City :</span>
+                      <input type="text" placeholder="Sydney" required>
+                  </div>
+  
+                  <div class="flex">
+                      <div class="inputBox">
+                          <span>State :</span>
+                          <input type="text" placeholder="NSW" required>
+                      </div>
+                      <div class="inputBox">
+                          <span>Zip Code :</span>
+                          <input type="text" placeholder="123 456" required>
+                      </div>
+                  </div>
+  
+              </div>
+  
+              <div class="col">
+  
+                  <h3 class="title">Payment</h3>
+
+                  <div class="inputBox">
+                      <span>Name on card :</span>
+                      <input type="text" placeholder="Mr/Mrs/Miss/Mx F/N L/N" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>Credit Card Number :</span>
+                      <input type="number" placeholder="1111-2222-3333-4444" required>
+                  </div>
+                  <div class="inputBox">
+                      <span>Exp Month :</span>
+                      <input type="text" placeholder="January" required >
+                  </div>
+  
+                  <div class="flex">
+                      <div class="inputBox">
+                          <span>Exp Year :</span>
+                          <input type="number" placeholder="2023" required>
+                      </div>
+                      <div class="inputBox">
+                          <span>CVV :</span>
+                          <input type="text" placeholder="123" required>  
+                      </div>
+                  </div>
+                </div class="submit-button-container">
+                <input type="submit" value="Proceed to checkout" class="submit-btn" required> 
+              </div>
+      
+          </div>
+      </form>
+          </div>
+        </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footerNav">
+      <a href="http://127.0.0.1:5500/homepage.html">Home</a>
+      <a href="http://127.0.0.1:5500/progress.html">Discover</a>
+      <a href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+      <a href="http://127.0.0.1:5500/contactus.html">Contact Us</a>
+      <a href="http://127.0.0.1:5500/download.html">Download</a>
+      <a href="http://127.0.0.1:5500/donate.html">Donate</a>
+    </div>
+    <p class="copyright-text">Copyright&copy;2023, Designed by EnigmaRealm Studios    </p>
+ </footer>
+
+ <script>
+  function logoutalert(){
+    alert("Logout Successful");
+
+    location.href='login-register.html';
+  }
+
+    
+ </script>
+  </body>
+</html>

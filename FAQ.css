@@ -1,0 +1,37 @@
+body{
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-image: url(images/background-donate.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.FAQ-container-div{
+  text-align: center;
+  animation: fade-down 0.5s;
+}
+
+.FAQ-container .header{
+  color: white;
+  font-size: 34px;
+  text-decoration: underline;
+  font-weight: bold;
+  top: 60px;
+}
+
+h3{
+  font-size: 28px;
+  text-decoration: underline;
+  margin-top: 50px;
+}
+
+.FAQ-header-GQ{
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.question{
+  font-size: 20px;
+}

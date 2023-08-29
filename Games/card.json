@@ -1,0 +1,38 @@
+[
+  {
+      "image": "../images/cards/computer-devices.png",
+      "name": "CD"
+  },
+  {
+      "image": "../images/cards/board-game.png",
+      "name": "BG"
+  },
+  {
+      "image": "../images/cards/circuit-board.png",
+      "name": "CB"
+  },
+  {
+      "image": "../images/cards/dice.png",
+      "name": "DC"
+  },
+  {
+      "image": "../images/cards/game-console.png",
+      "name": "GC"
+  },
+  {
+      "image": "../images/cards/global.png",
+      "name": "GO"
+  },
+  {
+      "image": "../images/cards/joystick.png",
+      "name": "JS"
+  },
+  {
+      "image": "../images/cards/mobile-game.png",
+      "name": "MG"
+  },
+  {
+      "image": "../images/cards/technical-support.png",
+      "name": "TC"
+  }
+]

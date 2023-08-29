@@ -1,0 +1,163 @@
+body{
+  font-family: Roboto;
+  height: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  background-image: url('images/background-space.png');
+}
+
+.first-part-div{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.EnigmaRealm-name{
+  font-weight: bold;
+  font-size: 150px;
+  width: 1000px;
+  text-align: center;
+  animation: fade-down 0.5s;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.EnigmaRealm-name span{
+  color: aqua;
+}
+
+.slogan{
+  text-align: center;
+  animation: fade-down 0.5s;
+}
+
+.first-part-section p{
+  font-size: 28px;
+}
+
+.about-us-div{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(58, 58, 58);
+}
+
+.about-us-h3, .current-game-h3{
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.join-us-p{
+  margin-bottom: 5px;
+}
+
+.about-us-description, .join-us-p, .current-game-div{
+  padding: 10px;
+  width: 98%;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.current-game-div{
+  font-size: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(64, 0, 0);
+}
+
+li{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.CP-button-container {
+  margin-left: 15%;
+}
+
+.CP-button{
+  font-size: 30px;
+  background-color: rgb(43, 43, 43);
+  cursor: not-allowed;
+}
+
+.home-description{
+  background-color: rgb(0, 0, 88);
+  font-size: 25px;
+  margin-top: 430px;
+  margin-left: 50px;
+  width: 900px;
+  padding: 50px;
+}
+
+.donate-section{
+  background-image: url('images/background-donate.png');
+  color: white;
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.donate-section p{
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.donate-title{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.donate-button{
+  background-color: green;
+  display: block;
+  padding: 50px;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+
+.donate-button:hover{
+  background-color: rgb(0, 77, 0);
+  color: rgb(178, 178, 178);
+  transition: 0.3s;
+}
+
+.contact-us-section{
+  background-image: url('images/contactus.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-title, .contact-help, .selection{
+  text-align: center;
+}
+
+.contact-title{
+  font-size: 30px;
+}
+
+.contact-help{
+  font-size: 25px;
+}
+
+.selection{
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.contact-us-tab{
+  color: white;
+  font-weight: bold;
+}

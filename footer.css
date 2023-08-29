@@ -1,0 +1,31 @@
+footer{
+  font-family: Roboto;
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  animation: fade-down 0.5s;
+}
+
+.copyright-text{
+  font-size: 15px;
+  color: white;
+}
+
+.footerNav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footerNav a:hover{
+  color: gray;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.realmspan{
+  color: aqua;
+}

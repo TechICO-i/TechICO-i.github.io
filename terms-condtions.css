@@ -1,0 +1,49 @@
+body{
+  background-image: url(images/terms-conditoins.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+a{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.termsaconditons, .welcome, .title, .description, li, .date{
+  text-align: center;
+}
+
+li{
+  list-style-type: none
+}
+
+.termsaconditons{
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.welcome{
+  font-size: 20px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.lihi{
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.date{
+  font-size: 25px;
+  font-weight:bold;
+  text-decoration: underline;
+}

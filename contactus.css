@@ -1,0 +1,56 @@
+body{
+  background-image: url(images/contactus.png);
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.contactus-section p{
+  color: white;
+}
+
+.contact-us-section-div{
+  animation: fade-down 0.5s;
+  text-align: center;
+  display: block;
+}
+
+p{
+  font-size: 25px;
+}
+
+input, textarea{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 800px;
+  font-family: Roboto;
+}
+
+.button-container{
+  text-align: center;
+}
+
+button{
+  color: white;
+  font-weight: bold;
+  border-style: solid;
+  font-size: 20px;
+  background-color: rgb(87, 0, 187);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding-top: 20px;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-bottom: 20px;
+}
+
+.submit-button:hover{
+  background-color: rgb(64, 0, 138);
+}

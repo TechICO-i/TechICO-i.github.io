@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body{
+  display: flex;
+  padding: 0 10px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: url(images/current-progress.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper{
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.button-back{
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(0, 135, 0);
+  color: white;
+  border-style: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-back:hover{
+  transition: 0.3s;
+  color: rgb(152, 152, 152);
+  background-color: rgb(0, 99, 0);
+}
+
+.button-back:active{
+  background-color: rgb(0, 43, 0);
+  color: rgb(78, 78, 78);
+}
+
+.wrapper h1{
+  font-size: 25px;
+  font-weight: 500;
+  padding: 20px 25px;
+  padding-right: 125px;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+.wrapper .content{
+  margin: 25px 25px 35px;
+}
+
+.content .inputs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.inputs input{
+  height: 57px;
+  width: 56px;
+  margin: 4px;
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  background: none;
+  pointer-events: none;
+  text-transform: uppercase;
+  border: 1px solid #B5B5B5;
+}
+
+.typing-input {
+  opacity: 0;
+  z-index: -999;
+  position: absolute;
+  pointer-events: none;
+}
+
+.inputs input:first-child{
+  margin-left: 0px;
+}
+
+.content .details{
+  margin: 20px 0 25px;
+}
+
+.details p{
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.content .reset-btn{
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  padding: 15px 0;
+  font-size: 17px;
+  border-radius: 5px;
+  background: green;
+  transition: all 0.3s ease;
+}
+
+.content .reset-btn:hover{
+  background: rgb(18, 82, 70);
+  color: rgb(182, 182, 182);
+}
+
+@media screen and (max-width: 460px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .wrapper h1{
+    font-size: 22px;
+    padding: 16px 20px;
+  }
+
+  .wrapper .content{
+    margin: 25px 20px
+  }
+}
