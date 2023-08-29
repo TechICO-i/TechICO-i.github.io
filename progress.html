@@ -31,7 +31,7 @@
     <section>
       <div class="header-welcome">
         <p class="header-text">Play our website games while you wait for our downloads</p>
-        <p class="header-text-2">Click <a href="http://127.0.0.1:5500/download.html">here</a> to go to select our games to download 
+        <p class="header-text-2">Click <a href="./download.html">here</a> to go to select our games to download 
           if not already</p>
       </div>
     </section>
@@ -46,7 +46,7 @@
           <div class="free-description">
             <p class="description-game">This is a game where you guess the words based on the clue and the letters you type  </p>
             <div class="button-div">
-              <button class="PN-button" onclick="location.href='http://127.0.0.1:5500/Games/wordguessgame.html'">PLAY NOW</button>            </div>
+              <button class="PN-button" onclick="GocardMemory()">PLAY NOW</button>            </div>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
             <p class="description-game">This is a game where you type the fastest words on the board
             </p>
             <div class="button-div">
-              <button class="PN-button" onclick="location.href='http://127.0.0.1:5500/Games/typinggame.html'">PLAY NOW</button>            </div>
+              <button class="PN-button" onclick="GotypingGame()">PLAY NOW</button>            </div>
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
             <p class="description-game">This is a game where you match the cards with each other
             </p>
             <div class="button-div">
-              <button class="PN-button" onclick="location.href='http://127.0.0.1:5500/Games/cardmemory.html'">PLAY NOW</button>            </div>
+              <button class="PN-button" onclick="GocardMemory()">PLAY NOW</button>            </div>
           </div>
         </div>
       </div>
@@ -102,7 +102,17 @@
     location.href='login-register.html';
   }
 
-    
+   function GowordGuess(){
+    location.href='Games/wordguessgame.html';
+   }
+
+   function GotypingGame(){
+    location.href='Games/typinggame.html';
+   }
+
+   function GocardMemory(){
+    location.href='Games/cardmemory.html';
+   }
  </script>
   </body>
 </html>
