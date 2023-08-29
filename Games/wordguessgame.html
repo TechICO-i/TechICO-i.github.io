@@ -10,7 +10,7 @@
 
     <div class="wrapper">
       <h1>Guess the Word</h1>
-      <button class="button-back" onclick ="window.location.href= 'http://127.0.0.1:5500/progress.html'">Back</button>
+      <button onclick ="backDownload()">Back</button>
       <div class="content">
         <input type="text" class="typing-input" maxlength="1">
         <div class="inputs"></div>
@@ -25,5 +25,10 @@
 
     <script src="wordguessgame.js"></script>
     <script src="wordtwo.js"></script>
+    <script>
+      function backDownload(){    
+        location.href='download.html';
+      }
+     </script>
   </body>
 </html>

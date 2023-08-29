@@ -14,9 +14,15 @@
     </div>
     <p>Score: <span class="score"></span></p>
     <div class="actions">
-        <button onclick ="window.location.href= 'http://127.0.0.1:5500/progress.html'">Back</button>
+        <button onclick ="backDownload()">Back</button>
         <button onclick="restart()">Restart</button>
     </div>
     <script src="cardmemory.js"></script>
+
+    <script>
+      function backDownload(){    
+        location.href='download.html';
+      }
+     </script>
   </body>
 </html>
