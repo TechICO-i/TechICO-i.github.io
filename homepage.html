@@ -102,8 +102,7 @@
       <p class="donate-title">DONATE</p>
       <p class="donate-help">If you would like to support us:
         <div class="button-container-donate">
-          <button class="donate-button" onclick=
-          "location.href='http://127.0.0.1:5500/donate.html'">DONATE NOW</button>
+          <button class="donate-button" onclick="GoDonatePage()">DONATE NOW</button>
         </div>
       </p>
     </div>
@@ -133,6 +132,12 @@
     </div>
     <p class="copyright-text">Copyright&copy;2023, Designed by Enigma<span>Realm</span> Studios    </p>
  </footer>
+
+ <script>
+   function GoDonatePage(){
+    location.href='donate.html';
+   } 
+   </script>
 
  <script src="index.js"></script>
   </body>
