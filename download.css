@@ -64,6 +64,11 @@ body{
   margin-bottom: 20px;
 }
 
+.b0x:hover, .b0x-starskies:hover{
+  transform: translate(0, -10px);
+  transition: 0.3s;
+}
+
 .b0x{
   margin-top: 25px;
 }
