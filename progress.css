@@ -16,7 +16,6 @@ body{
   }
   
   .game{
-    animation: fade-up 0.5s;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
