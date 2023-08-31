@@ -15,9 +15,9 @@ body{
   background-image: url(images/download-header-background.png);  
 }
 
-.games{
+.b0x-div{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .header-text, .header-text-2{

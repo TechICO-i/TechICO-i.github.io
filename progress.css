@@ -15,7 +15,7 @@ body{
     background-image: url(Games/images/current-progress.png);  
   }
   
-  .games{
+  .b0x-div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
