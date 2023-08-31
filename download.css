@@ -15,10 +15,9 @@ body{
   background-image: url(images/download-header-background.png);  
 }
 
-.game{
-  animation: fade-up 0.5s;
+.games{
   display: grid;
-  grid-template-rows: 50px 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .header-text, .header-text-2{
