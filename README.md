@@ -1,7 +1,8 @@
 -IMPORTANT-
 To access the website:
-1. Install Visual Studio Code and make sure to download the 'Minor Project - 2023' folder
+1. Install Visual Studio Code and make sure to download the 'TechICO-i.github.io' folder
 2. In Visual Studio Code, go to the extensions tab on the left and install 'Live Server'
+2B(If you want). Install HTML and CSS
 3. Open Explorer
 4. Drag the 'Minor Project - 2023' folder into Visual Studio Code (If not work then go to the file 'Open Folder' and click the 'Minor Project - 2023' but don't open it, then click 'Select Folder')
 5. Go to the login-register.html and press right click and open with live server, wait for it to open or click on the bottom where it says to open with live server and access from there
