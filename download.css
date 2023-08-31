@@ -18,7 +18,7 @@ body{
 .game{
   animation: fade-up 0.5s;
   display: grid;
-  grid-template-columns: 50px 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr;
 }
 
 .header-text, .header-text-2{
